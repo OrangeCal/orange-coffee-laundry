@@ -97,7 +97,7 @@ export default function Home() {
     </p>
 
     <div className="footer-social">
-      <a href="https://www.facebook.com/OrangeCoffeeLaundryReforma" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/share/1BFtTdYWKR/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
         Facebook
       </a>
       <a href="https://www.instagram.com/orange.laundry.reforma" target="_blank" rel="noopener noreferrer">
