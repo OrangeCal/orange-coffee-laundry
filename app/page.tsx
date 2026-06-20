@@ -24,7 +24,11 @@ export default function Home() {
         <div className="heroText">
           <p className="eyebrow">Lavandería · Cafetería · Comunidad</p>
           <h1>Lava, seca y disfruta un café.</h1>
-          <p>En Orange Coffee & Laundry hacemos que lavar sea una experiencia. Visítanos en nuestras sucursales.</p>
+          <p>Lavandería autoservicio con cafetería, Wi-Fi y espacios cómodos para esperar,
+  trabajar o disfrutar mientras tu ropa queda lista.</p>
+          <p className="trust-text">
+  Desde 1952 ofreciendo experiencia en servicios de lavandería.
+</p>
           <div className="actions">
             <a className="btn primary" href="https://wa.me/529542180054">WhatsApp</a>
             <a className="btn dark" href="#puntos">Ver Orange Puntos</a>
