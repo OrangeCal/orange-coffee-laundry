@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Orange Coffee & Laundry",
-  description: "Lavandería, cafetería, servicio a domicilio y Orange Puntos.",
+  description: "Visítanos en nuestras sucursales y disfruta una experiencia rápida, cómoda y agradable.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
