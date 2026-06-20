@@ -3,8 +3,8 @@ import { Coffee, WashingMachine, Truck, MapPin, Gift, Phone } from "lucide-react
 
 const branches = [
   { name: "Reforma, Oaxaca", text: "Orange Coffee & Laundry Reforma", address: "Av. Fuerza Aerea Mexicana 501, Col. Reforma, C.P. 68050, Oaxaca de Juárez, Oaxaca",  image: "/reforma.jpg", maps: "https://www.google.com/maps/place/Orange+Coffee+%26+Laundry+Reforma/@17.0814047,-96.7194211,17z/data=!3m1!4b1!4m6!3m5!1s0x85c7231f14854ad7:0xcc1322f8f0ddb669!8m2!3d17.0813996!4d-96.7168408!16s%2Fg%2F11z7lz2swx" },
-  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido", address: "Av. Guelatao esq Av Montealban SN, Fracc. Bacocho, C.P. 71983, Puerto Escondido, Oaxaca", image: "/puerto-escondido.jpg", maps: "https://maps.app.goo.gl/bht8GME8Yp7vAJa68?g_st=ic" },
-  { name: "Huatulco", text: "California Laundry Huatulco", address: "Av. Salina Cruz SN, Sector M, C.P. 70987, Bahias de Huatulco, Oaxaca", image: "/huatulco.jpg", maps: "https://maps.app.goo.gl/fbjBcmNm8p9UKKur7?g_st=ic" },
+  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido", address: "Av. Guelatao esq Av Montealban SN, Fracc. Bacocho, C.P. 71983, Puerto Escondido, Oaxaca", image: "/puerto-escondido.jpg", maps: "https://www.google.com/maps/place/Orange+Coffee+%26+Laundry/@15.8671473,-97.0836471,17z/data=!3m1!4b1!4m6!3m5!1s0x85b8f70034845e73:0x279e8fc9a59a2051!8m2!3d15.8671422!4d-97.0810668!16s%2Fg%2F11w1pn2nkn" },
+  { name: "Huatulco", text: "California Laundry Huatulco", address: "Av. Salina Cruz SN, Sector M, C.P. 70987, Bahias de Huatulco, Oaxaca", image: "/huatulco.jpg", maps: "https://www.google.com/maps/place/California+Laundry+Express/@15.7648509,-96.1343181,17z/data=!3m1!4b1!4m6!3m5!1s0x85bf2108dc26c01f:0xb7c5ae3f6dc89dab!8m2!3d15.7648458!4d-96.1317378!16s%2Fg%2F11h9k_lyv6" },
 ];
 
 export default function Home() {
