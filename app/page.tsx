@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Coffee, WashingMachine, Truck, MapPin, Gift, Phone } from "lucide-react";
 
 const branches = [
-  { name: "Reforma, Oaxaca", text: "Orange Coffee & Laundry Reforma" },
-  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido" },
-  { name: "Huatulco", text: "Orange Laundry Huatulco" },
+  { name: "Reforma, Oaxaca", text: "Orange Coffee & Laundry Reforma", address: "Av. Fuerza Aerea Mexicana 501, Col. Reforma, C.P. 68050, Oaxaca de Juárez, Oaxaca" },
+  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido", address: "Av. Guelatao esq Av Montealban SN, Fracc. Bacocho, C.P. 71983, Puerto Escondido, Oaxaca" },
+  { name: "Huatulco", text: "California Laundry Huatulco", address: "Av. Salina Cruz SN, Sector M, C.P. 70987, Bahias de Huatulco, Oaxaca" },
 ];
 
 export default function Home() {
@@ -71,6 +71,7 @@ export default function Home() {
               <MapPin />
               <h3>{b.name}</h3>
               <p>{b.text}</p>
+              <p className="branch-address">{b.address}</p>
             </article>
           ))}
         </div>
@@ -79,7 +80,7 @@ export default function Home() {
       <section id="contacto" className="cta">
         <Gift size={46} />
         <h2>Únete a la familia Orange</h2>
-        <p>Escríbenos para promociones, horarios, servicio a domicilio y Orange Puntos.</p>
+        <p>Escríbenos para promociones, horarios, sucursales y Orange Puntos.</p>
         <a className="btn dark" href="https://wa.me/529542180054"><Phone size={18}/> 954 218 0054</a>
       </section>
 
