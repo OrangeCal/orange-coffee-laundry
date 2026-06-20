@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Coffee, WashingMachine, Truck, MapPin, Gift, Phone } from "lucide-react";
 
 const branches = [
-  { name: "Reforma, Oaxaca", text: "Orange Coffee & Laundry Reforma", address: "Av. Fuerza Aerea Mexicana 501, Col. Reforma, C.P. 68050, Oaxaca de Juárez, Oaxaca" },
-  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido", address: "Av. Guelatao esq Av Montealban SN, Fracc. Bacocho, C.P. 71983, Puerto Escondido, Oaxaca" },
-  { name: "Huatulco", text: "California Laundry Huatulco", address: "Av. Salina Cruz SN, Sector M, C.P. 70987, Bahias de Huatulco, Oaxaca" },
+  { name: "Reforma, Oaxaca", text: "Orange Coffee & Laundry Reforma", address: "Av. Fuerza Aerea Mexicana 501, Col. Reforma, C.P. 68050, Oaxaca de Juárez, Oaxaca",  image: "/reforma.jpg", maps: "https://maps.app.goo.gl/RjcpVoP5YAYc3qmp9?g_st=ic" },
+  { name: "Puerto Escondido", text: "Orange Coffee & Laundry Puerto Escondido", address: "Av. Guelatao esq Av Montealban SN, Fracc. Bacocho, C.P. 71983, Puerto Escondido, Oaxaca", image: "/puerto-escondido.jpg", maps: "https://maps.app.goo.gl/bht8GME8Yp7vAJa68?g_st=ic" },
+  { name: "Huatulco", text: "California Laundry Huatulco", address: "Av. Salina Cruz SN, Sector M, C.P. 70987, Bahias de Huatulco, Oaxaca", image: "/huatulco.jpg", maps: "https://maps.app.goo.gl/fbjBcmNm8p9UKKur7?g_st=ic" },
 ];
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="heroText">
           <p className="eyebrow">Lavandería · Cafetería · Comunidad</p>
           <h1>Lava, seca y disfruta un café.</h1>
-          <p>En Orange Coffee & Laundry hacemos que lavar sea más rápido, cómodo y agradable. Visítanos en nuestras sucursales o consulta el servicio a domicilio.</p>
+          <p>En Orange Coffee & Laundry hacemos que lavar sea una experiencia. Visítanos en nuestras sucursales.</p>
           <div className="actions">
             <a className="btn primary" href="https://wa.me/529542180054">WhatsApp</a>
             <a className="btn dark" href="#puntos">Ver Orange Puntos</a>
@@ -67,12 +67,13 @@ export default function Home() {
         <h2>Sucursales</h2>
         <div className="grid3">
           {branches.map((b) => (
-            <article className="branch" key={b.name}>
-              <MapPin />
-              <h3>{b.name}</h3>
-              <p>{b.text}</p>
-              <p className="branch-address">{b.address}</p>
-            </article>
+            <a className="branch" key={b.name} href={b.maps} target="_blank" rel="noopener noreferrer">
+  <img className="branch-photo" src={b.image} alt={b.text} />
+  <MapPin />
+  <h3>{b.name}</h3>
+  <p>{b.text}</p>
+  <p className="branch-address">{b.address}</p>
+</a>
           ))}
         </div>
       </section>
