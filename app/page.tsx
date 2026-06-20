@@ -85,10 +85,42 @@ export default function Home() {
         <a className="btn dark" href="https://wa.me/529542180054"><Phone size={18}/> 954 218 0054</a>
       </section>
 
-      <footer>
-        <p>Orange Coffee & Laundry © 2026</p>
-        <p>contacto@orangelaundry.com.mx · @orange.laundry.reforma</p>
-      </footer>
+      <footer className="footer">
+  <div className="footer-contact">
+    <p>© 2026 Orange Coffee & Laundry. Todos los derechos reservados.</p>
+
+    <p>
+      Correo:{" "}
+      <a href="mailto:contacto@orangelaundry.com.mx">
+        contacto@orangelaundry.com.mx
+      </a>
+    </p>
+
+    <div className="footer-social">
+      <a href="https://www.facebook.com/OrangeCoffeeLaundryReforma" target="_blank" rel="noopener noreferrer">
+        Facebook
+      </a>
+      <a href="https://www.instagram.com/orange.laundry.reforma" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
+      <a href="https://wa.me/529542180054" target="_blank" rel="noopener noreferrer">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div className="footer-legal">
+    <a href="/aviso-privacidad.pdf" target="_blank" rel="noopener noreferrer">
+      Aviso de privacidad
+    </a>
+    <a href="/terminos-servicio.pdf" target="_blank" rel="noopener noreferrer">
+      Términos del servicio
+    </a>
+    <a href="/terminos-orange-puntos.pdf" target="_blank" rel="noopener noreferrer">
+      Términos Orange Puntos
+    </a>
+  </div>
+</footer>
     </main>
   );
 }
