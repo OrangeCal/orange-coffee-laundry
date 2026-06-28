@@ -41,6 +41,40 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="disponibilidad" className="section availability">
+  <div className="availability-text">
+    <p className="eyebrow orange">Consulta en tiempo real</p>
+
+    <h2>¿Cansado de estar esperando?</h2>
+
+    <p>
+      En <b>Orange Laundry Reforma</b> puedes consultar en tiempo real la
+      disponibilidad de lavadoras y secadoras antes de llegar.
+    </p>
+
+    <p>
+      Escanea el QR o entra directamente desde el botón para revisar si hay
+      máquinas disponibles.
+    </p>
+
+    <a
+      className="btn primary"
+      href="https://gad.touchnpay.fr/public/material/406jkj1mqqcof6a"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Consultar disponibilidad
+    </a>
+  </div>
+
+  <div className="availability-image">
+    <img
+      src="/disponibilidad-orange.png"
+      alt="Consulta disponibilidad de máquinas Orange Laundry Reforma"
+    />
+  </div>
+</section>
+
       <section id="servicios" className="section">
         <h2>Nuestros servicios</h2>
         <div className="grid3">
