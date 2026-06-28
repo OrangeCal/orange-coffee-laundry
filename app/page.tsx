@@ -14,6 +14,7 @@ export default function Home() {
         <Image src="/logo-orange.png" alt="Orange Coffee & Laundry" width={230} height={175} priority />
         <nav>
           <a href="#servicios">Servicios</a>
+          <a href="#disponibilidad">Disponibilidad</a>
           <a href="#puntos">Orange Puntos</a>
           <a href="#sucursales">Sucursales</a>
           <a href="#contacto">Contacto</a>
