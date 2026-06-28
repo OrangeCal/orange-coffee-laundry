@@ -69,11 +69,17 @@ export default function Home() {
   </div>
 
   <div className="availability-image">
+  <a
+    href="https://gad.touchnpay.fr/public/material/406jkj1mqqcof6a"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       src="/disponibilidad-orange.png"
       alt="Consulta disponibilidad de máquinas Orange Laundry Reforma"
     />
-  </div>
+  </a>
+</div>
 </section>
 
       <section id="servicios" className="section">
