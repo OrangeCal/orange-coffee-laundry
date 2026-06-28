@@ -75,7 +75,7 @@ export default function Home() {
     rel="noopener noreferrer"
   >
     <img
-      src="/disponibilidad-orange.png"
+      src="/disponibilidad-qr-orange.png"
       alt="Consulta disponibilidad de máquinas Orange Laundry Reforma"
     />
   </a>
